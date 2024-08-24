@@ -17,7 +17,7 @@ const Category = ({ name, widgets, onAddWidget, onRemoveWidget }) => {
                 </div>
             ))}
             <button onClick={() => onAddWidget()} className="add-widget-button">
-                + Add Wid
+                + Add Widget
             </button>
         </div>
     );
